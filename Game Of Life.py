@@ -42,7 +42,7 @@ TILE_SIZE = 5
 GRID_WIDTH = WIDTH // TILE_SIZE
 GRID_HEIGHT = HEIGHT // TILE_SIZE
 
-FPS = 60
+FPS = 60 
 
 HISTORY_LENGTH = 8
 iterations = 0
@@ -53,7 +53,7 @@ pygame.display.set_caption(
     )
 
 
-fullscreen = True
+fullscreen = False
 switch_display(fullscreen)
 
 clock = pygame.time.Clock()
